@@ -14,13 +14,13 @@ API_HASH = getenv("API_HASH","d6186691704bd901bdab275ceaab88f3")
 BOT_TOKEN = getenv("BOT_TOKEN",)
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "ZyroxMusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "SilentlyFuckbot")
 
 # Get Your repo
 REPO_LINK = getenv("REPO_LINK" , "https://github.com/Ahad234/IVAN-NISHAxZYRO")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Zyro music")
+BOT_NAME = getenv("BOT_NAME" , ".")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mongodb.net/?retryWrites=true&w=majority&appName=ahaan")
@@ -28,10 +28,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mo
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID","-1003019778394"))
+LOGGER_ID = int(getenv("LOGGER_ID","-1003069749455"))
 
 # Get this value from @CrewMusic_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID","7650810764"))
+OWNER_ID = int(getenv("OWNER_ID","7921583444"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_Support_channel_ll")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NightShadeGC")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "http://ichooseher.t.me")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NewJerseyxx")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
