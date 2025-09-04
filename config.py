@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH","d6186691704bd901bdab275ceaab88f3")
 BOT_TOKEN = getenv("BOT_TOKEN",)
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "SilentlyFuckbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@PreetixMusic_bot")
 
 # Get Your repo
 REPO_LINK = getenv("REPO_LINK" , "https://github.com/Ahad234/IVAN-NISHAxZYRO")
@@ -28,10 +28,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://ahaan:ahaad@ahaan.hgkeruq.mo
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID","-1003069749455"))
+LOGGER_ID = int(getenv("LOGGER_ID","-1002981254436"))
 
 # Get this value from @CrewMusic_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID","7921583444"))
+OWNER_ID = int(getenv("OWNER_ID","8195241636"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "http://ichooseher.t.me")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NewJerseyxx")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PreetixUpdate")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/preetixmusic")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -87,21 +87,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/ctc2ff.jpg"
+    "START_IMG_URL", "https://graph.org//file/25115719697ed91ef5672.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/588b6x.jpg"
+    "PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/0zhu1b.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/gsps68.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/kobtju.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ksuz0m.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/futwz1.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ksuz0m.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/futwz1.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/futwz1.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/fd6a5x.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/fd6a5x.jpg"
+PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
+STATS_IMG_URL = "https://graph.org//file/99a8a9c13bb01f9ac7d98.png"
+TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
 
 
 def time_to_seconds(time):
