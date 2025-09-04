@@ -20,7 +20,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "@PreetixMusic_bot")
 REPO_LINK = getenv("REPO_LINK" , "https://github.com/Ahad234/IVAN-NISHAxZYRO")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , ".")
+BOT_NAME = getenv("BOT_NAME" , "𝐏ʀᴇᴇᴛɪ 𝗫 𝐌ᴜsɪᴄ")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://shreyan82683:shreyan82683@cluster0.c8v26ub.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
